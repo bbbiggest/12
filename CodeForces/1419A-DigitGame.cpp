@@ -88,3 +88,5 @@ int judge(char c)
     else
         return 1;
 }
+
+//https://codeforces.com/problemset/problem/1419/A
