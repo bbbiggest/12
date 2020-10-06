@@ -1,4 +1,5 @@
-Ducci Sequence, ACM/ICPC Seoul 2009, UVa1594
+// Ducci Sequence, ACM/ICPC Seoul 2009, UVa1594
+// aoapc - Exercise 5-2.
 // https://vjudge.net/problem/UVA-1594
 
 #include <iostream>
