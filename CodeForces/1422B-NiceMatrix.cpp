@@ -31,6 +31,7 @@ int main()
                     med.push_back(a[n - i - 1][m - j - 1]);
                 sort(med.begin(), med.end());
                 int x = med[(med.size() - 1) / 2];
+                //int x = med[med.size() / 2];
                 for (auto y : med)
                     ans += abs(x - y);
             }
