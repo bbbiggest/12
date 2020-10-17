@@ -1,4 +1,3 @@
-  
 // Alignment of Code, ACM/ICPC NEERC 2010, UVa1593
 // aoapc - Exercise 5-1.
 // https://vjudge.net/problem/UVA-1593
