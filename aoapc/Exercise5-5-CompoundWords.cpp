@@ -1,4 +1,4 @@
-// Compound Wprds, UVa10391
+// Compound Words, UVa10391
 // aoapc - Exercise 5-5.
 // https://vjudge.net/problem/UVA-10391
 
