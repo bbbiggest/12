@@ -4,6 +4,8 @@ cin.tie(nullptr);
 cout.tie(nullptr);
 */
 
+// ios::sync_with_stdio(false); // 在NOIP比赛中不要写.
+
 //测试cin与scanf速度
 //1. 向一个文件里输入1000000个随机数
 ///*
