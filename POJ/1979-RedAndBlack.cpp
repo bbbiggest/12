@@ -2,7 +2,7 @@
 using namespace std;
 const int MAXW = 20;
 const int MAXH = 20;
-char tile[MAXW + 10][MAXH + 10];
+char tile[MAXH + 10][MAXW + 10];
 int ans = 0;
 int x[] = {1, -1, 0, 0};
 int y[] = {0, 0, 1, -1};
