@@ -6,6 +6,8 @@ cout.tie(nullptr);
 
 // ios::sync_with_stdio(false); // 在NOIP比赛中不要写.
 
+// cout.flush() 和 cout<<flush 能清空缓冲区
+
 //测试cin与scanf速度
 //1. 向一个文件里输入1000000个随机数
 ///*
