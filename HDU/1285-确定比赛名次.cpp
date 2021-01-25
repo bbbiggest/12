@@ -1,3 +1,4 @@
+// 邻接表实现方法
 #include <iostream>
 #include <cstring>
 #include <vector>
