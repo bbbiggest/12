@@ -38,8 +38,9 @@ int main()
             else
             {
                 cout << "open file error!\n";
-                cout << "Whether you need to read from file \"member.txt\" ?\nY or N\n";
-                continue;
+                // cout << "Whether you need to read from file \"member.txt\" ?\nY or N\n";
+                // continue;
+                return -1;
             }
         }
         else // 重新输入
