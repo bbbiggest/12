@@ -1,4 +1,4 @@
-// Random 3 people team
+// Random N people team
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -8,6 +8,7 @@
 #include <cstdlib>
 #include <iomanip>
 using namespace std;
+const int N = 3; // number of each team
 
 int main()
 {
@@ -75,7 +76,7 @@ int main()
     for (int i = 0; i < cnt; ++i)
     {
         cout << setw(15) << left << names[i] << "\t";
-        if ((i + 1) % 3 == 0 && (i + 1) != cnt)
+        if ((i + 1) % N == 0 && (i + 1) != cnt)
             cout << "\nTeam " << ++teamnum << ": ";
     }
     cout.flush();
@@ -88,7 +89,7 @@ int main()
     for (int i = 0; i < cnt; ++i)
     {
         cout << setw(15) << left << names[i] << "\t";
-        if ((i + 1) % 3 == 0 && (i + 1) != cnt)
+        if ((i + 1) % N == 0 && (i + 1) != cnt)
             cout << "\nTeam " << ++teamnum << ": ";
     }
     cout.flush();
