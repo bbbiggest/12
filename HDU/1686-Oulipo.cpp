@@ -1,16 +1,15 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-const int MAX_T = 1000000;
-char WORD[MAX_T + 10];
-char TEST[MAX_T + 10];
-int NN[MAX_T];
+const int MAX_N = 1000000;
+char WORD[MAX_N + 10];
+char TEST[MAX_N + 10];
+int NN[MAX_N];
 
 void buildNext(char *ptr, int plen)
 {
-    int i = 0, j = -1;
     NN[0] = -1;
-    while (i < plen)
+    for (int i = 0, j = -1; i < plen;)
     {
         if (j < 0 || ptr[i] == ptr[j])
         {
@@ -26,10 +25,9 @@ void buildNext(char *ptr, int plen)
 int KMP(char *ptr, char *str)
 {
     int cnt = 0;
-    int i = 0, plen = strlen(ptr);
-    int j = 0, slen = strlen(str);
+    int plen = strlen(ptr);
     buildNext(ptr, plen);
-    while (i < plen && j < slen)
+    for (int i = 0, j = 0; i < plen && str[j];)
     {
         if (i < 0 || ptr[i] == str[j])
         {
@@ -49,6 +47,8 @@ int KMP(char *ptr, char *str)
 
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
     int t;
     cin >> t;
     while (t--)
@@ -56,5 +56,6 @@ int main()
         cin >> WORD >> TEST;
         cout << KMP(WORD, TEST) << endl;
     }
+    cout.flush();
     return 0;
 }
