@@ -13,4 +13,4 @@ int main()
     while (cin >> n && n)
         cout << money[n] << "\n";
     return 0;
-}1
+}
