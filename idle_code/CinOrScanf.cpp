@@ -1,15 +1,12 @@
 /*
 ios::sync_with_stdio(false);
 cin.tie(nullptr);
-cout.tie(nullptr);
 */
-
-// ios::sync_with_stdio(false); // 在NOIP比赛中不要写.
 
 // cout.flush() 和 cout<<flush 能清空缓冲区
 
-//测试cin与scanf速度
-//1. 向一个文件里输入1000000个随机数
+// 测试cin与scanf速度
+// 1. 向一个文件里输入1000000个随机数
 ///*
 #include <iostream>
 #include <fstream>
@@ -40,13 +37,15 @@ const int num = 1000000;
 int main()
 {
     freopen("data", "r", stdin);
-    //ios::sync_with_stdio(false);
+    // ios::sync_with_stdio(false);
+    // cin.tie(nullptr);
     int i, n, start, end;
     start = clock();
     for (i = 0; i < num - 2; i++)
         cin >> n;
     end = clock();
-    cout << double(end - start) / CLOCKS_PER_SEC << endl;
+    cout << double(end - start) / CLOCKS_PER_SEC << '\n';
+    cout.flush();
     Sleep(5000);
     system("pause");
     return 0;
@@ -70,7 +69,7 @@ int main()
     for (i = 0; i < num; i++)
         scanf("%d", &n);
     end = clock();
-    //cout<<double(end-start)/CLOCKS_PER_SEC<<endl;
+    // cout << double(end - start) / CLOCKS_PER_SEC << '\n';
     printf("%f\n", double(end - start) / CLOCKS_PER_SEC);
     system("pause");
     Sleep(5000);
