@@ -1,6 +1,8 @@
 // 更推荐去看 https://www.geeksforgeeks.org/fast-io-for-competitive-programming/
-// More recommended to see https://www.geeksforgeeks.org/fast-io-for-competitive-programming/
+// 和 https://www.geeksforgeeks.org/cincout-vs-scanfprintf/#:~:text=With%20synchronization%20turned%20off%2C%20the,does%20this%20at%20compile%20time.
 
+// More recommended to see https://www.geeksforgeeks.org/fast-io-for-competitive-programming/
+// and https://www.geeksforgeeks.org/cincout-vs-scanfprintf/#:~:text=With%20synchronization%20turned%20off%2C%20the,does%20this%20at%20compile%20time.
 
 /*
 ios::sync_with_stdio(false);
