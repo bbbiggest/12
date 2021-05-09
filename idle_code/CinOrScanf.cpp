@@ -1,3 +1,7 @@
+// 更推荐去看 https://www.geeksforgeeks.org/fast-io-for-competitive-programming/
+// More recommended to see https://www.geeksforgeeks.org/fast-io-for-competitive-programming/
+
+
 /*
 ios::sync_with_stdio(false);
 cin.tie(nullptr);
