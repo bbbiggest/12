@@ -1,4 +1,3 @@
-// 1520G - To Go Or Not To Go?
 #include <bits/stdc++.h>
 using namespace std;
 using P = pair<int, int>;
