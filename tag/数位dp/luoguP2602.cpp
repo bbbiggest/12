@@ -2,10 +2,10 @@
 #include <cstring>
 using namespace std;
 typedef long long ll;
-const int M = (int)1e9 + 7;
 const int MAX_N = 20;
 int a[MAX_N];
 ll dp[MAX_N][20];
+int Cur;
 
 ll dfs(int pos, int sum, bool lead, bool limit)
 {
@@ -27,7 +27,7 @@ ll dfs(int pos, int sum, bool lead, bool limit)
     return res;
 }
 
-ll digitalDP(string num)
+ll digitalDP(ll num)
 {
     if (num < 0)
         return 0;
@@ -35,13 +35,14 @@ ll digitalDP(string num)
     for (len = 0; num; num /= 10)
         a[len++] = num % 10;
     memset(dp, -1, sizeof(dp));
-    return dfs(len - 1, 0, true, true) % M;
+    return dfs(len - 1, 0, true, true);
 }
 
 int main()
 {
-    string a, b;
+    ll a, b;
     cin >> a >> b;
-    cout << digitalDP(b) - digitalDP(a) << ' ';
+    for (Cur = 0; Cur < 10; ++Cur)
+        cout << digitalDP(b) - digitalDP(a - 1) << ' ';
     return 0;
 }
