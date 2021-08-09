@@ -17,36 +17,8 @@
 
 嗯...大概就像下面那个表格那样，粉色的是 (i, j) ，黑色的是需要考虑的格子
 
-<table><tbody>
-    <tr>
-        <th> </th><th> </th><th> </th><th> </th><th> </th><th> </th>
-    </tr>
-    <tr>
-        <th> </th><th> </th><th> </th><th> </th><th> </th><th> </th>
-    </tr>
-    <tr>
-        <td> </td>
-        <td bgcolor="Black"> </td>
-        <td bgcolor="Black"> </td>
-        <td bgcolor="Black"> </td>
-        <td bgcolor="Black"> </td>
-        <td bgcolor="Black"> </td>
-    </tr>
-    <tr>
-        <td bgcolor="Black"> </td>
-        <td bgcolor="Black"> </td>
-        <td bgcolor="Pink"> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-    </tr>
-    <tr>
-        <th> </th><th> </th><th> </th><th> </th><th> </th><th> </th>
-    </tr>
-    <tr>
-        <th> </th><th> </th><th> </th><th> </th><th> </th><th> </th>
-    </tr>
-</table>
+<img width="410" alt="sztuoj1067_1" src="https://user-images.githubusercontent.com/60065681/128756792-4e19a7c0-ce05-446d-a479-5c0b8099affd.png">
+
 dp[crt] [st] [k] 表示当前轮廓线状态为 st 时，已经放了k个国王的方案共有多少种
 
 
