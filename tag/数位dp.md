@@ -110,17 +110,16 @@ dfs 的参数的具体含义如下：
 
 （ POJ 和 HDU 的题目给出的链接为 vjudge链接）
 
-| 序号 |                             题号                             |       标题        |  题型   | 难度 | 题解 |
-| :--: | :----------------------------------------------------------: | :---------------: | :-----: | :--: | :--: |
-|  1   |        [hdu3555](https://vjudge.net/problem/HDU-3555)        |       Bomb        | 数位 dp |  ☆☆  |  ✿   |
-|  2   |        [hdu2089](https://vjudge.net/problem/HDU-2089)        |      不要62       | 数位 dp |  ☆☆  |  ✿   |
-|  3   |     [洛谷 P2657](https://www.luogu.com.cn/problem/P2657)     |     windy 数      | 数位 dp |  ☆☆  |  ✿   |
-|  4   |     [洛谷 P2602](https://www.luogu.com.cn/problem/P2602)     |     数字计数      | 数位 dp |  ☆☆  |  ✿   |
-|  5   |     [洛谷 P3413](https://www.luogu.com.cn/problem/P3413)     |       萌数        | 数位 dp | ☆☆☆  |  ✿   |
-|  6   |        [poj3252](https://vjudge.net/problem/POJ-3252)        |   Round Numbers   | 数位 dp | ☆☆☆  |  ✿   |
-|  7   |    [cf55D](http://codeforces.com/problemset/problem/55/D)    | Beautiful numbers | 数位 dp | ☆☆☆  |  ✿   |
-|  8   | [cf1036C](https://codeforces.com/problemset/problem/1036/C)  |  Classy Numbers   | 数位 dp | ☆☆☆  |  ✿   |
-|  9   |   [cf628D](http://codeforces.com/problemset/problem/628/D)   |   Magic Numbers   | 数位 dp | ☆☆☆☆ |  ✿   |
-|  10  | [2020 ICPC Shanghai Site<br>-problem C](https://codeforces.com/gym/102900/problem/C) |    Sum of Log     | 数位 dp | ☆☆☆☆ |  ✿   |
-
+| 序号 |                             题号                             |       标题        |  题型   | 难度 |                             题解                             |
+| :--: | :----------------------------------------------------------: | :---------------: | :-----: | :--: | :----------------------------------------------------------: |
+|  1   |        [hdu3555](https://vjudge.net/problem/HDU-3555)        |       Bomb        | 数位 dp |  ☆☆  | [✿](https://github.com/bbbiggest/12/blob/master/HDU/3555-Bomb.md) |
+|  2   |        [hdu2089](https://vjudge.net/problem/HDU-2089)        |      不要62       | 数位 dp |  ☆☆  | [✿](https://github.com/bbbiggest/12/blob/master/HDU/2089-%E4%B8%8D%E8%A6%8162.md) |
+|  3   |     [洛谷 P2657](https://www.luogu.com.cn/problem/P2657)     |     windy 数      | 数位 dp |  ☆☆  | [✿](https://github.com/bbbiggest/12/blob/master/luogu/P2657-windy%E6%95%B0.md) |
+|  4   |     [洛谷 P2602](https://www.luogu.com.cn/problem/P2602)     |     数字计数      | 数位 dp |  ☆☆  | [✿](https://github.com/bbbiggest/12/blob/master/luogu/P2602-%E6%95%B0%E5%AD%97%E8%AE%A1%E6%95%B0.md) |
+|  5   |     [洛谷 P3413](https://www.luogu.com.cn/problem/P3413)     |       萌数        | 数位 dp | ☆☆☆  | [✿](https://github.com/bbbiggest/12/blob/master/luogu/P3413-%E8%90%8C%E6%95%B0.md) |
+|  6   |        [poj3252](https://vjudge.net/problem/POJ-3252)        |   Round Numbers   | 数位 dp | ☆☆☆  | [✿](https://github.com/bbbiggest/12/blob/master/POJ/3252-Round%20Numbers.md) |
+|  7   |    [cf55D](http://codeforces.com/problemset/problem/55/D)    | Beautiful numbers | 数位 dp | ☆☆☆  | [✿](https://github.com/bbbiggest/12/blob/master/CodeForces/55D-Beautiful%20numbers.md) |
+|  8   | [cf1036C](https://codeforces.com/problemset/problem/1036/C)  |  Classy Numbers   | 数位 dp | ☆☆☆  | [✿](https://github.com/bbbiggest/12/blob/master/CodeForces/1036C-Classy%20Numbers.md) |
+|  9   |   [cf628D](http://codeforces.com/problemset/problem/628/D)   |   Magic Numbers   | 数位 dp | ☆☆☆☆ | [✿](https://github.com/bbbiggest/12/blob/master/CodeForces/628D-Magic%20Numbers.md) |
+|  10  | [2020 ICPC Shanghai Site<br>-problem C](https://codeforces.com/gym/102900/problem/C) |    Sum of Log     | 数位 dp | ☆☆☆☆ | [✿](https://github.com/bbbiggest/12/blob/master/ICPC/2020%20ICPC%20Shanghai%20Site/C-Sum%20of%20Log.md) |
 
