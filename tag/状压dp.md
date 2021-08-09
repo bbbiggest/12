@@ -116,16 +116,16 @@ for (int i = 0; i < n; ++i)
 
 （ POJ 和 HDU 的题目给出的链接为 vjudge链接）
 
-| 序号 |                             题号                             |                标题                 |   题型    | 难度 | 题解 |
-| :--: | :----------------------------------------------------------: | :---------------------------------: | :-------: | :--: | :--: |
-|  1   |        [poj2441](https://vjudge.net/problem/POJ-2441)        |          Arrange the Bulls          |  状压 dp  | ☆☆☆  |  ✿   |
-|  2   |        [poj2686](https://vjudge.net/problem/POJ-2686)        |       Traveling by Stagecoach       |  状压 dp  | ☆☆☆  |  ✿   |
-|  3   |        [poj3254](https://vjudge.net/problem/POJ-3254)        |             Corn Fields             | 轮廓线 dp | ☆☆☆  |  ✿   |
-|  4   |     [洛谷P1896](https://www.luogu.com.cn/problem/P1896)      |              互不侵犯               | 轮廓线 dp | ☆☆☆  |  ✿   |
-|  5   |        [poj2411](https://vjudge.net/problem/POJ-2411)        |          Mondriaan's Dream          |  状压 dp  | ☆☆☆  |  ✿   |
-|  6   | [sztu-oj1067](http://10.1.97.60/csuoj/problemset/problem?pid=1067) | Staginner In The Everdistant Utopia | 轮廓线 dp | ☆☆☆  |  ✿   |
-|  7   |                                                              |                                     |  状压 dp  | ☆☆☆☆ |  ✿   |
-|  8   |                                                              |                                     |  状压 dp  | ☆☆☆☆ |  ✿   |
-|  9   |                                                              |                                     |  状压 dp  | ☆☆☆☆ |  ✿   |
-|  10  |                                                              |                                     |  状压 dp  | ☆☆☆☆ |  ✿   |
+| 序号 |                             题号                             |                标题                 |   题型    | 难度  | 题解 |
+| :--: | :----------------------------------------------------------: | :---------------------------------: | :-------: | :---: | :--: |
+|  1   |        [poj2441](https://vjudge.net/problem/POJ-2441)        |          Arrange the Bulls          |  状压 dp  |  ☆☆☆  |  ✿   |
+|  2   |        [poj2686](https://vjudge.net/problem/POJ-2686)        |       Traveling by Stagecoach       |  状压 dp  |  ☆☆☆  |  ✿   |
+|  3   |        [poj3254](https://vjudge.net/problem/POJ-3254)        |             Corn Fields             | 轮廓线 dp |  ☆☆☆  |  ✿   |
+|  4   |     [洛谷P1896](https://www.luogu.com.cn/problem/P1896)      |              互不侵犯               | 轮廓线 dp |  ☆☆☆  |  ✿   |
+|  5   |        [poj2411](https://vjudge.net/problem/POJ-2411)        |          Mondriaan's Dream          |  状压 dp  |  ☆☆☆  |  ✿   |
+|  6   | [sztu-oj1067](http://10.1.97.60/csuoj/problemset/problem?pid=1067) | Staginner In The Everdistant Utopia | 轮廓线 dp |  ☆☆☆  |  ✿   |
+|  7   |  [cf580D](https://codeforces.com/problemset/problem/580/D)   |           Kefa and Dishes           |  状压 dp  |  ☆☆☆  |  ✿   |
+|  8   | [cf1313D](https://codeforces.com/problemset/problem/1313/D)  |           Happy New Year            |  状压 dp  |  ☆☆☆  |  ✿   |
+|  9   |        [poj2836](https://vjudge.net/problem/POJ-2836)        |        Rectangular Covering         |  状压 dp  | ☆☆☆☆  |  ✿   |
+|  10  |        [poj1795](https://vjudge.net/problem/POJ-1795)        |           DNA Laboratory            |  状压 dp  | ☆☆☆☆☆ |  ✿   |
 
