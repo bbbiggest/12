@@ -9,6 +9,10 @@
 $$
 \sum_{i=0}^{X}\sum_{j=[i=0]}^{Y}[i\&j=0]\lfloor\log_2(i+j)+1\rfloor
 $$
+
+<img width="226" alt="屏幕截图 2021-08-09 204128" src="https://user-images.githubusercontent.com/60065681/128707686-b5b7d507-aaac-4fc2-83db-cee450a6bcd6.png">
+
+
 其中：
 
 + & 表示按位与
