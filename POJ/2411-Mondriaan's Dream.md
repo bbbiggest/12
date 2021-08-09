@@ -16,7 +16,8 @@
 
 如下图所示
 
-![poj2411_1](K:\huang\Documents\Markdown\状压dp\poj2411_1.png)
+<img width="392" alt="poj2411_1" src="https://user-images.githubusercontent.com/60065681/128756249-23207576-99f9-4973-8eda-d8a0a299b187.png">
+
 
 将图中黑色部分压缩为一个整数作为状态
 
